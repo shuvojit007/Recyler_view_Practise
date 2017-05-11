@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="clip_vertical|left"
+    android:layout_margin="10dp"
+    android:id="@+id/list_root"
+    android:layout_width="match_parent"
+    android:paddingLeft="16dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="36dp"
+        android:tint="@color/colorAccent"
+        android:id="@+id/recimg"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_height="36dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:id="@+id/rectxt"
+        android:text="Shuvojit Kar"
+        android:paddingLeft="8dp"
+        android:layout_height="match_parent" />
+</LinearLayout>
